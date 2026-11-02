@@ -13,14 +13,14 @@ The dataset is dynamically generated using Python (`sqlite3` and `random` librar
 The repository features 21 structured SQL queries located in the `queries/` directory, designed to analyze sales volume changes, market shares, and regional adoption rates.
 
 **Key SQL Techniques Utilized:**
-* **Aggregations & Grouping:** Extensive use of `SUM()`, `ROUND()`, `GROUP BY`, and `ORDER BY` to aggregate sales volumes by region, year, and powertrain.
+* **Aggregations & Grouping:** Extensive use of `SUM()`, `ROUND()`, `GROUP BY`, and `ORDER BY` to aggregate sales volumes by region, year, and engine type.
 * **Common Table Expressions (CTEs):** Implementation of modular `WITH` clauses to build structured multi-step queries for comparative analysis between benchmark years (2015 vs. 2025).
 * **Relational Joins:** Usage of `JOIN` and `LEFT JOIN` to combine temporal CTEs for volume delta calculations and percentage growth metrics.
 * **Conditional Logic:** Application of `CASE WHEN` statements to gracefully handle edge cases such as division by zero (undefined growth) for early-stage market data.
 
 ## Simulated Market Insights
-* **Powertrain Transition:** Reflects a macro transition away from traditional ICE vehicles toward EV and Hybrid adoption over the 10-year period (2015–2025).
-* **Target-Driven Dynamics:** Models higher 2025 target probabilities for alternative powertrains in Asian and European markets compared to the Americas, establishing distinct regional market profiles.
+* **Engine Type Transition:** Reflects a macro transition away from traditional ICE vehicles toward EV and Hybrid adoption over the 10-year period (2015–2025).
+* **Target-Driven Dynamics:** Models higher 2025 target probabilities for EV and Hybrid engine types in Asian and European markets compared to the Americas, establishing distinct regional market profiles.
 * **Data-Driven Analytics:** Demonstrates how SQL queries can extract strategic insights for automotive manufacturers evaluating market dynamic shifts.
 
 ## Repository Structure
