@@ -19,9 +19,9 @@ The repository features 21 structured SQL queries located in the `queries/` dire
 * **Conditional Logic:** Application of `CASE WHEN` statements to gracefully handle edge cases such as division by zero (undefined growth) for early-stage market data.
 
 ## Simulated Market Insights
-* **Powertrain Transition:** The model successfully reflects the global transition away from traditional ICE vehicles toward EV and Hybrid adoption over the 10-year span.
-* **Regional Divergence:** Simulates strong European and Asian EV/Hybrid expansion versus a more gradual shift in the Americas.
-* **Data-Driven Strategy:** Demonstrates how SQL queries can extract actionable insights for automotive manufacturers optimizing regional production strategies.
+* **Powertrain Transition:** Reflects a macro transition away from traditional ICE vehicles toward EV and Hybrid adoption over the 10-year period (2015–2025).
+* **Target-Driven Dynamics:** Models higher 2025 target probabilities for alternative powertrains in Asian and European markets compared to the Americas, establishing distinct regional market profiles.
+* **Data-Driven Analytics:** Demonstrates how SQL queries can extract strategic insights for automotive manufacturers evaluating market dynamic shifts.
 
 ## Repository Structure
 * `queries/`: Directory containing 21 numbered `.sql` scripts organized chronologically (2015 baseline, 2025 projections, and comparative trend queries).
